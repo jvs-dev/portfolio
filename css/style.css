@@ -1,0 +1,77 @@
+.locationhd
+{
+    display: flex;
+    align-items: center;
+}
+.numberhd
+{
+    display: flex;
+    align-items: center;
+}
+.socialiconhd
+{
+    display: flex;
+    align-items: center;
+    width: 170px;
+    justify-content: space-between;
+}
+.socialiconft
+{
+    display: flex;
+    align-items: center;
+    width: 170px;
+    justify-content: space-between;
+}
+.rightheader
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 300px;
+}
+.namehd2
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 25px;
+    width: 258px;
+}
+.lefth2
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 530px;
+}
+.sliderbot
+{
+    z-index: 2;
+    display: flex;
+    justify-content: space-between;
+    width: 120px;
+    height: 25px;
+    align-self: center;
+    position: absolute;
+    margin-top: 44%;
+}
+.hr1sc3
+{
+    width:100%;  
+    margin: 0px;
+}
+.filterdiv
+{
+    display: flex;
+    justify-content: space-between;
+    width: 710px;
+    margin-top: 20px;
+}
+.sc4hr1
+{
+    width: 100%;
+}
+.biocontent
+{
+    width: 57%;
+}

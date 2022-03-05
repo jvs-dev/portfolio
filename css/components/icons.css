@@ -1,0 +1,29 @@
+.icon1
+{
+    color: blueviolet;
+    font-size: 23px;
+}
+.socialicon
+{
+    color: var(--white);
+    font-size: 28px;
+    cursor: pointer;
+    transition: 0.6s;
+}
+.socialicon:hover
+{
+    animation: icone 1s ease infinite;
+    color: rgb(157, 99, 212);
+}
+
+@keyframes icone {
+    0%{
+        transform: scale(1.0);
+    }
+    50%{
+        transform: scale(1.10);
+    }
+    100%{
+        transform: scale(1.0);
+    }
+}

@@ -1,0 +1,16 @@
+.header1
+{
+    background-color: var(--black);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 30px 5px 30px;
+}
+.header2
+{
+    display: flex;
+    background-color: var(--white);
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 30px 0px 30px;
+}

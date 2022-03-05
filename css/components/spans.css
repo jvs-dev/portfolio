@@ -1,0 +1,53 @@
+#sc1button1
+{
+    height: 12px;
+    width: 12px;
+    background-color: var(--blueviolet);
+    border: solid 1.9px var(--black);
+    border-radius: 100%;
+    cursor: pointer;
+    transition: 0.3s;
+}
+#sc1button1:hover
+{
+    background-color: blueviolet;
+    transform: scale(1.2);
+}
+
+
+
+
+#sc1button2
+{
+    height: 12px;
+    width: 12px;
+    background-color: var(--blueviolet);
+    border: solid 1.9px var(--black);
+    border-radius: 100%;
+    cursor: pointer;
+    transition: 0.3s;
+}
+#sc1button2:hover
+{
+    background-color: blueviolet;
+    transform: scale(1.2);
+}
+
+
+
+
+#sc1button3
+{
+    height: 12px;
+    width: 12px;
+    background-color: var(--blueviolet);
+    border: solid 1.9px var(--black);
+    border-radius: 100%;
+    cursor: pointer;
+    transition: 0.3s;
+}
+#sc1button3:hover
+{
+    background-color: blueviolet;
+    transform: scale(1.2);
+}
