@@ -158,6 +158,14 @@
         justify-content: space-around;
         width: 100%;
     }
+    .myname
+    {
+        margin: 0px;
+    }
+    .suphd2
+    {
+        margin: 0px;
+    }
     .socialiconhdmbl
     {
         display: flex;
