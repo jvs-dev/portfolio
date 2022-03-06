@@ -1,0 +1,224 @@
+.windowmobile
+{
+    display: none;
+}
+#sc1button1mbl
+{
+    height: 12px;
+    width: 12px;
+    background-color: var(--blueviolet);
+    border: solid 1.9px var(--black);
+    border-radius: 100%;
+    cursor: pointer;
+    transition: 0.3s;
+}
+#sc1button1mbl:hover
+{
+    background-color: blueviolet;
+    transform: scale(1.2);
+}
+
+
+
+
+#sc1button2mbl
+{
+    height: 12px;
+    width: 12px;
+    background-color: var(--blueviolet);
+    border: solid 1.9px var(--black);
+    border-radius: 100%;
+    cursor: pointer;
+    transition: 0.3s;
+}
+#sc1button2mbl:hover
+{
+    background-color: blueviolet;
+    transform: scale(1.2);
+}
+
+
+
+
+#sc1button3mbl
+{
+    height: 12px;
+    width: 12px;
+    background-color: var(--blueviolet);
+    border: solid 1.9px var(--black);
+    border-radius: 100%;
+    cursor: pointer;
+    transition: 0.3s;
+}
+#sc1button3mbl:hover
+{
+    background-color: blueviolet;
+    transform: scale(1.2);
+}
+
+.sc1img1mbl
+{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    opacity: 1;
+}
+.sc1img2mbl
+{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    opacity: 1;
+}
+.sc1img3mbl
+{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    opacity: 1;
+}
+
+#p2sc1mbl
+{
+    color: white;
+    font-weight: 500;
+}
+.section2mbl
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 50px 30px 50px 30px;
+    background-color: #F4F7FC;
+}
+@media (max-width: 768px)
+{
+    .header1
+    {
+        display: none;
+    }
+    .header2
+    {
+        display: none;
+    }
+    .section1
+    {
+        display: none;
+    }
+    .section2
+    {
+        display: none;
+    }
+    .section3
+    {
+        display: none;
+    }
+    .section4
+    {
+        display: none;
+    }
+    .footer1
+    {
+        display: none;
+    }
+
+    /*inicio do menu mbl*/
+
+    .windowmobile
+    {
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+    }
+    .headermobile1
+    {
+        background-color: var(--black);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 15vh;
+    }
+    .headermobile2
+    {
+        display: flex;
+        height: 12vh;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .menumbl
+    {
+        margin: 0px;
+        font-size: 38px;
+        color: var(--black);
+        cursor: pointer;
+    }
+    .rightheadermbl
+    {
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+    }
+    .socialiconhdmbl
+    {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        width: 100%;
+        height: 100%;
+    }
+    .section1mbl
+    {
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .h1section1mbl
+    {
+        z-index: 2;
+        margin: 30px 0px 30px 0px;
+        font-size: 50px;
+        text-align: center;
+        color: black;
+        letter-spacing: 3px;
+    }
+    .psection1mbl
+    {
+        text-align: center;
+        z-index: 2;
+        margin: 0px 0px 0px 0px;
+        font-size: 28px;
+        font-weight: 500;
+        letter-spacing: 2px;
+        color: var(--black);
+    }
+    .buttoncontact
+    {
+        margin: 0px;
+    }
+    .sliderbot
+    {
+        z-index: 2;
+        display: flex;
+        justify-content: space-between;
+        width: 120px;
+        height: 25px;
+        align-self: center;
+        position: relative;
+        margin-top: 50%;
+    }
+    .h2sc2
+    {
+        text-align: center;
+    }
+    .subh2sc2
+    {
+        text-align: center;
+    }
+    .certificates
+    {
+        overflow-x: scroll;
+        border-bottom: none;
+    }
+}

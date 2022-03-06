@@ -3,12 +3,26 @@ let pheader22 = document.querySelector('.pheader2-2')
 let sc1button1 = document.getElementById('sc1button1')
 let sc1button2 = document.getElementById('sc1button2')
 let sc1button3 = document.getElementById('sc1button3')
+
+let sc1button1mbl = document.getElementById('sc1button1mbl')
+let sc1button2mbl = document.getElementById('sc1button2mbl')
+let sc1button3mbl = document.getElementById('sc1button3mbl')
+
 let sc1img1 = document.querySelector('.sc1img1')
 let sc1img2 = document.querySelector('.sc1img2')
 let sc1img3 = document.querySelector('.sc1img3')
+
+let sc1img1mbl = document.querySelector('.sc1img1mbl')
+let sc1img2mbl = document.querySelector('.sc1img2mbl')
+let sc1img3mbl = document.querySelector('.sc1img3mbl')
+
 let p1sc1 = document.getElementById('p1sc1')
 let p2sc1 = document.getElementById('p2sc1')
 let p3sc1 = document.getElementById('p3sc1')
+
+let p1sc1mbl = document.getElementById('p1sc1mbl')
+let p2sc1mbl = document.getElementById('p2sc1mbl')
+let p3sc1mbl = document.getElementById('p3sc1mbl')
 
 let all = document.getElementById('all')
 let commerce = document.getElementById('commerce')
@@ -67,6 +81,47 @@ sc1button3.onclick = function() {
     p1sc1.classList.add('dpnone')
     p2sc1.classList.add('dpnone')
     p3sc1.classList.remove('dpnone')
+}
+
+sc1button1mbl.onclick = function() {
+    sc1button1mbl.classList.add('set')
+    sc1button2mbl.classList.remove('set')
+    sc1button3mbl.classList.remove('set')
+
+    sc1img1mbl.classList.remove('dpnone')
+    sc1img2mbl.classList.add('dpnone')
+    sc1img3mbl.classList.add('dpnone')
+
+    p1sc1mbl.classList.remove('dpnone')
+    p2sc1mbl.classList.add('dpnone')
+    p3sc1mbl.classList.add('dpnone')
+}
+sc1button2mbl.onclick = function() {
+    sc1button1mbl.classList.remove('set')
+    sc1button2mbl.classList.add('set')
+    sc1button3mbl.classList.remove('set')
+
+    sc1img1mbl.classList.add('dpnone')
+    sc1img2mbl.classList.remove('dpnone')
+    sc1img3mbl.classList.add('dpnone')
+
+    p1sc1mbl.classList.add('dpnone')
+    p2sc1mbl.classList.remove('dpnone')
+    p3sc1mbl.classList.add('dpnone')
+    
+}
+sc1button3mbl.onclick = function() {
+    sc1button1mbl.classList.remove('set')
+    sc1button2mbl.classList.remove('set')
+    sc1button3mbl.classList.add('set')
+    
+    sc1img1mbl.classList.add('dpnone')
+    sc1img2mbl.classList.add('dpnone')
+    sc1img3mbl.classList.remove('dpnone')
+
+    p1sc1mbl.classList.add('dpnone')
+    p2sc1mbl.classList.add('dpnone')
+    p3sc1mbl.classList.remove('dpnone')
 }
 
 all.onclick = function() {
