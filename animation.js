@@ -30,12 +30,25 @@ let portfl = document.getElementById('portfl')
 let Landing = document.getElementById('Landing')
 let Prototyping = document.getElementById('Prototyping')
 
+let allmbl = document.getElementById('allmbl')
+let commercembl = document.getElementById('commercembl')
+let portflmbl = document.getElementById('portflmbl')
+let Landingmbl = document.getElementById('Landingmbl')
+let Prototypingmbl = document.getElementById('Prototypingmbl')
+
 let mask1 = document.getElementById('mask1')
 let mask2 = document.getElementById('mask2')
 let mask3 = document.getElementById('mask3')
 let mask4 = document.getElementById('mask4')
 let mask5 = document.getElementById('mask5')
 let mask6 = document.getElementById('mask6')
+
+let mask1mbl = document.getElementById('mask1mbl')
+let mask2mbl = document.getElementById('mask2mbl')
+let mask3mbl = document.getElementById('mask3mbl')
+let mask4mbl = document.getElementById('mask4mbl')
+let mask5mbl = document.getElementById('mask5mbl')
+let mask6mbl = document.getElementById('mask6mbl')
 
 
 pheader22.onclick = function() {
@@ -232,4 +245,119 @@ Prototyping.onclick = function() {
     mask4.classList.add('dpflex')
     mask5.classList.remove('dpflex')
     mask6.classList.remove('dpflex')
+}
+
+
+
+
+
+
+allmbl.onclick = function() {
+    allmbl.classList.add('select')
+    commercembl.classList.remove('select')
+    portflmbl.classList.remove('select')
+    Landingmbl.classList.remove('select')
+    Prototypingmbl.classList.remove('select')
+
+    mask1mbl.classList.remove('dpnone')
+    mask2mbl.classList.remove('dpnone')
+    mask3mbl.classList.remove('dpnone')
+    mask4mbl.classList.remove('dpnone')
+    mask5mbl.classList.remove('dpnone')
+    mask6mbl.classList.remove('dpnone')
+    
+    mask1mbl.classList.add('dpflex')
+    mask2mbl.classList.add('dpflex')
+    mask3mbl.classList.add('dpflex')
+    mask4mbl.classList.add('dpflex')
+    mask5mbl.classList.add('dpflex')
+    mask6mbl.classList.add('dpflex')
+}
+
+commercembl.onclick = function() {
+    allmbl.classList.remove('select')
+    commercembl.classList.add('select')
+    portflmbl.classList.remove('select')
+    Landingmbl.classList.remove('select')
+    Prototypingmbl.classList.remove('select')
+
+    mask1mbl.classList.remove('dpnone')
+    mask2mbl.classList.add('dpnone')
+    mask3mbl.classList.add('dpnone')
+    mask4mbl.classList.add('dpnone')
+    mask5mbl.classList.add('dpnone')
+    mask6mbl.classList.add('dpnone')
+
+    mask2mbl.classList.add('dpflex')
+    mask2mbl.classList.remove('dpflex')
+    mask3mbl.classList.remove('dpflex')
+    mask4mbl.classList.remove('dpflex')
+    mask5mbl.classList.remove('dpflex')
+    mask6mbl.classList.remove('dpflex')
+}
+
+portflmbl.onclick = function() {
+    allmbl.classList.remove('select')
+    commercembl.classList.remove('select')
+    portflmbl.classList.add('select')
+    Landingmbl.classList.remove('select')
+    Prototypingmbl.classList.remove('select')
+
+    mask1mbl.classList.add('dpnone')
+    mask2mbl.classList.remove('dpnone')
+    mask3mbl.classList.add('dpnone')
+    mask4mbl.classList.add('dpnone')
+    mask5mbl.classList.add('dpnone')
+    mask6mbl.classList.add('dpnone')
+
+    mask1mbl.classList.remove('dpflex')
+    mask2mbl.classList.add('dpflex')
+    mask3mbl.classList.remove('dpflex')
+    mask4mbl.classList.remove('dpflex')
+    mask5mbl.classList.remove('dpflex')
+    mask6mbl.classList.remove('dpflex')
+}
+
+Landingmbl.onclick = function() {
+    allmbl.classList.remove('select')
+    commercembl.classList.remove('select')
+    portflmbl.classList.remove('select')
+    Landingmbl.classList.add('select')
+    Prototypingmbl.classList.remove('select')
+
+    mask1mbl.classList.add('dpnone')
+    mask2mbl.classList.add('dpnone')
+    mask3mbl.classList.remove('dpnone')
+    mask4mbl.classList.add('dpnone')
+    mask5mbl.classList.remove('dpnone')
+    mask6mbl.classList.add('dpnone')
+
+    mask1mbl.classList.remove('dpflex')
+    mask2mbl.classList.remove('dpflex')
+    mask3mbl.classList.add('dpflex')
+    mask4mbl.classList.remove('dpflex')
+    mask5mbl.classList.add('dpflex')
+    mask6mbl.classList.remove('dpflex')
+}
+
+Prototypingmbl.onclick = function() {
+    allmbl.classList.remove('select')
+    commercembl.classList.remove('select')
+    portflmbl.classList.remove('select')
+    Landingmbl.classList.remove('select')
+    Prototypingmbl.classList.add('select')
+
+    mask1mbl.classList.add('dpnone')
+    mask2mbl.classList.add('dpnone')
+    mask3mbl.classList.add('dpnone')
+    mask4mbl.classList.remove('dpnone')
+    mask5mbl.classList.add('dpnone')
+    mask6mbl.classList.add('dpnone')
+
+    mask1mbl.classList.remove('dpflex')
+    mask2mbl.classList.remove('dpflex')
+    mask3mbl.classList.remove('dpflex')
+    mask4mbl.classList.add('dpflex')
+    mask5mbl.classList.remove('dpflex')
+    mask6mbl.classList.remove('dpflex')
 }
