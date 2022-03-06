@@ -280,4 +280,8 @@
         overflow-x: scroll;
         border-bottom: none;
     }
+    .certificates:hover
+    {
+        height: 390px;
+    }
 }
