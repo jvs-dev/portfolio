@@ -6,6 +6,14 @@
     align-items: flex-start;
     flex-direction: column;
 }
+.sectionskills
+{
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 35px;
+}
 .section2
 {
     display: flex;

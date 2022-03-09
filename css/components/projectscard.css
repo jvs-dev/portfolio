@@ -15,7 +15,7 @@
     height: 282px;
     justify-content: center;
     align-items: center;
-    border: solid 1.5px var(--black);
+    border: solid 2px var(--black);
     box-shadow: -2px 3px 3px rgba(0, 0, 0, 0.637);
     border-radius: 5px;
     overflow: hidden;
