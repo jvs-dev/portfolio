@@ -1,5 +1,4 @@
 let body = document.querySelector('body')
-let pheader22 = document.querySelector('.pheader2-2')
 let sc1button1 = document.getElementById('sc1button1')
 let sc1button2 = document.getElementById('sc1button2')
 let sc1button3 = document.getElementById('sc1button3')
@@ -50,10 +49,6 @@ let mask4mbl = document.getElementById('mask4mbl')
 let mask5mbl = document.getElementById('mask5mbl')
 let mask6mbl = document.getElementById('mask6mbl')
 
-
-pheader22.onclick = function() {
-        
-}
 
 sc1button1.onclick = function() {
     sc1button1.classList.add('set')

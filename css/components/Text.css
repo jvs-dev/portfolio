@@ -26,19 +26,25 @@
     text-decoration: underline;
     text-underline-position: under;
 }
-.pheader2-2
+.Downloadcurriculo
 {
-    font-size: 17px;
-    color: var(--black);
-    letter-spacing: 1.5px;
-    transition: 0.6s; 
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    letter-spacing: 1px;
+    transition: 0.2s; 
+    transition-timing-function: cubic-bezier(0.57, -0.68, 0.67, 2.07);
+    padding: 5px 15px 5px 15px;
+    box-shadow: 1px 1px 3px black;
+    background: linear-gradient(70deg, rgb(137, 43, 226), rgb(137, 43, 226), rgba(137, 43, 226, 0.521) ,rgb(137, 43, 226), rgb(137, 43, 226)) no-repeat;
+    border-radius: 2px;
+    animation: gradient 7s infinite;
+    background-size: 400% 400%;
 }
-.pheader2-2:hover
+.Downloadcurriculo:hover
 {
-    cursor: pointer;
-    color: blueviolet;
-    text-decoration: underline;
-    text-underline-position: under;
+    transform: scale(1.10);
 }
 .psection1
 {

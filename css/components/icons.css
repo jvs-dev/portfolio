@@ -27,3 +27,8 @@
         transform: scale(1.0);
     }
 }
+.linksoc
+{
+    display: flex;
+    align-items: center;
+}
