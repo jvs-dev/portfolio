@@ -52,6 +52,11 @@ let menumbl = document.querySelector('.menumbl');
 let mnumblbar = document.querySelector('.mnumblbar')
 let menunav = document.querySelector('.menunav')
 
+let loadwindow = document.querySelector('.loadwindow')
+let loadtxt = document.querySelector('.loadtxt')
+
+body.classList.add('overflow')
+
 menumbl.addEventListener("click", function () {
     if (menunav.classList.contains('dpnone')) {
         menumbl.classList.toggle('active')
@@ -381,3 +386,12 @@ Prototypingmbl.onclick = function() {
     mask5mbl.classList.remove('dpflex')
     mask6mbl.classList.remove('dpflex')
 }
+window.addEventListener("load", function () {
+    setTimeout(() => {
+        loadwindow.classList.add('opc0')
+        body.classList.remove('overflow')
+        setTimeout(() => {
+            loadwindow.classList.add('active')
+        }, 500);
+    }, 1000);
+})

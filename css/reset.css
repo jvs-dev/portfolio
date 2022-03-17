@@ -34,3 +34,7 @@ body
 {
     overflow-y: hidden;
 }
+.opc0
+{
+    opacity: 0;
+}
