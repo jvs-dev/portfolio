@@ -48,7 +48,30 @@ let mask3mbl = document.getElementById('mask3mbl')
 let mask4mbl = document.getElementById('mask4mbl')
 let mask5mbl = document.getElementById('mask5mbl')
 let mask6mbl = document.getElementById('mask6mbl')
+let menumbl = document.querySelector('.menumbl');
+let mnumblbar = document.querySelector('.mnumblbar')
+let menunav = document.querySelector('.menunav')
 
+menumbl.addEventListener("click", function () {
+    if (menunav.classList.contains('dpnone')) {
+        menumbl.classList.toggle('active')
+        mnumblbar.classList.toggle('active')
+        menunav.classList.toggle('dpflex')
+        menunav.classList.toggle('dpnone')
+        setTimeout(() => {
+            menunav.classList.toggle('active')
+        }, 1);
+    }
+    else {
+        menunav.classList.toggle('active')
+        menumbl.classList.toggle('active')
+        mnumblbar.classList.toggle('active')
+        setTimeout(() => {
+            menunav.classList.toggle('dpflex')
+            menunav.classList.toggle('dpnone')
+        }, 500);
+    }
+})
 
 sc1button1.onclick = function() {
     sc1button1.classList.add('set')
