@@ -60,12 +60,14 @@ menumbl.addEventListener("click", function () {
         menunav.classList.toggle('dpnone')
         setTimeout(() => {
             menunav.classList.toggle('active')
+            body.classList.toggle('overflow')
         }, 1);
     }
     else {
         menunav.classList.toggle('active')
         menumbl.classList.toggle('active')
         mnumblbar.classList.toggle('active')
+        body.classList.toggle('overflow')
         setTimeout(() => {
             menunav.classList.toggle('dpflex')
             menunav.classList.toggle('dpnone')

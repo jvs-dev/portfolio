@@ -30,3 +30,7 @@ body
 {
     display: flex;
 }
+.overflow
+{
+    overflow-y: hidden;
+}

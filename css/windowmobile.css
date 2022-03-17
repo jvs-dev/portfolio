@@ -186,7 +186,7 @@
 .menunav
 {
     position: absolute;
-    padding: 20px 0px 50px 0px;
+    padding: 20px 0px 0px 0px;
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
@@ -236,10 +236,19 @@
     animation: gradient 7s infinite;
     background-size: 400% 400%;
     border-radius: 10px;
+    margin-bottom: 5vh;
 }
 .Downloadcurriculombl:hover
 {
     transform: scale(1.10);
+}
+#topo
+{
+    width: 0px;
+    height: 0px;
+    margin: 0px;
+    padding: 0px;
+    opacity: 0;
 }
 @media (max-width: 768px)
 {
